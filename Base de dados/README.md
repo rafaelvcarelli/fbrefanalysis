@@ -47,3 +47,8 @@ Por fim, na coluna **"pos"**, referente a posição dos atletas em campo, uma pe
 |Alesson|br BRA|MF/FW|Cuiabá|22|1999|114|192|278|691|2793|855|115|147|782|64|85|753|7|17|412|0|13|7|-13|15|10|9|3|29|
 |Ale|br BRA|MF|América (MG)|31|1990|214|939|1110|846|16696|5100|422|485|870|386|428|902|106|135|785|2|15|14|5|21|125|15|3|144|
 |Alisson|br BRA|MF/FW|São Paulo|28|1993|105|372|451|825|5456|1570|214|231|926|121|150|807|21|32|656|1|9|17|1|12|39|19|10|55|
+
+
+
+## A próxima etapa do projeto é analisar os dados usando SQL
+## [ANÁLISES ---------------->](https://github.com/rafaelvcarelli/fbrefanalysis/tree/main/An%C3%A1lises%20-%20SQL)
