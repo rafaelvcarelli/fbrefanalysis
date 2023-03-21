@@ -1,6 +1,6 @@
 ﻿# Base de dados
 
-#### Obtenção dos dados
+## Obtenção dos dados
 
 O site **fbref.com** disponibiliza, em detalhes, estatísticas de várias temporadas do **Campeonato Brasileiro de Futebol Série A**, do Brasil. 
 
