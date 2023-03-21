@@ -1,6 +1,6 @@
 ﻿# Base de dados
 
-## Obtenção dos dados
+#### Obtenção dos dados
 
 O site **fbref.com** disponibiliza, em detalhes, estatísticas de várias temporadas do **Campeonato Brasileiro de Futebol Série A**, do Brasil. 
 
@@ -22,11 +22,11 @@ Miscellaneous Stats
 
 Com os arquivos .csv prontos, o próximo passo foi criar uma conexão entre o **DBeaver** e o **PostgreSQL**, para manejo da base de dados.
 
-IMG
+![IMG](https://i.ibb.co/yQS5Ypj/Captura-de-Tela-47.png)
 
 Já no **DBeaver**, com a conexão feita com o **PostgreSQL**, a criação do schema **fbRefStats** com as 9 tabelas em .csv. 
 
-IMG
+![IMG](https://i.ibb.co/VwC2StL/Captura-de-Tela-48.png)
 
 Com as tabelas devidamente importadas, observando os tipos das colunas, o próximo passo foi a limpeza dos dados dessas tabelas, com três etapas principais.
 
@@ -34,4 +34,5 @@ Com o comando **[DROP COLUMN](https://github.com/rafaelvcarelli/fbrefanalysis/bl
 
 A renomeação das colunas das tabelas, para melhor entendimento. Como exemplo, usando o comando **[RENAME COLUMN](https://github.com/rafaelvcarelli/fbrefanalysis/blob/main/RENAMECOLUMNS.sql)**, renomeei as colunas da tabela **fbrefPossession**, referente aos dados sobre posse de bola. As outras 8 tabelas também foram atualizadas.
 
-Por fim, na coluna **"pos"**, referente a posição dos atletas em campo, uma pequena alteração de nome com comando **UPDATE(https://github.com/rafaelvcarelli/fbrefanalysis/blob/main/UPDATEVALUES.sql)** para melhor compreensão.
+Por fim, na coluna **"pos"**, referente a posição dos atletas em campo, uma pequena alteração de nome com comando **UPDATE** para melhor compreensão.
+
