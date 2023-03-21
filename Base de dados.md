@@ -1,6 +1,6 @@
 ﻿# Base de dados
 
-#### Obtenção dos dados
+## Obtenção dos dados
 
 O site **fbref.com** disponibiliza, em detalhes, estatísticas de várias temporadas do **Campeonato Brasileiro de Futebol Série A**, do Brasil. 
 
@@ -34,4 +34,4 @@ Com o comando **[DROP COLUMN](https://github.com/rafaelvcarelli/fbrefanalysis/bl
 
 A renomeação das colunas das tabelas, para melhor entendimento. Como exemplo, usando o comando **[RENAME COLUMN](https://github.com/rafaelvcarelli/fbrefanalysis/blob/main/RENAMECOLUMNS.sql)**, renomeei as colunas da tabela **fbrefPossession**, referente aos dados sobre posse de bola. As outras 8 tabelas também foram atualizadas.
 
-Por fim, na coluna **"pos"**, referente a posição dos atletas em campo, uma pequena alteração de nome com comando **https://github.com/rafaelvcarelli/fbrefanalysis/blob/main/UPDATEVALUES.sql** para melhor compreensão.
+Por fim, na coluna **"pos"**, referente a posição dos atletas em campo, uma pequena alteração de nome com comando **UPDATE(https://github.com/rafaelvcarelli/fbrefanalysis/blob/main/UPDATEVALUES.sql)** para melhor compreensão.
